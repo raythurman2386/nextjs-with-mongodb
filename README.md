@@ -11,14 +11,14 @@ Tutorial Link: [How to Integrate MongoDB Into Your Next.js App](https://www.mong
 
 If you want to learn more about MongoDB, visit the following pages:
 
-- [MongoDB Atlas](https://mongodb.com/atlas)
-- [MongoDB Documentation](https://docs.mongodb.com/)
+-   [MongoDB Atlas](https://mongodb.com/atlas)
+-   [MongoDB Documentation](https://docs.mongodb.com/)
 
 ## Deploy your own
 
 Once you have access to the environment variables you'll need, deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fraythurman2386%2Fnextjs-with-mongodb.git&env=MONGODB_URI)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fraythurman2386%2Fnextjs-with-mongodb.git&env=MONGODB_URI,MONGODB_DB)
 
 ## Configuration
 
@@ -36,7 +36,7 @@ cp .env.local.example .env.local
 
 Set each variable on `.env.local`:
 
-- `MONGODB_URI` - Your MongoDB connection string. If you are using [MongoDB Atlas](https://mongodb.com/atlas) you can find this by clicking the "Connect" button for your cluster.
+-   `MONGODB_URI` - Your MongoDB connection string. If you are using [MongoDB Atlas](https://mongodb.com/atlas) you can find this by clicking the "Connect" button for your cluster.
 
 ### Run Next.js in development mode
 
@@ -70,4 +70,4 @@ To deploy your local project to Vercel, push it to GitHub/GitLab/Bitbucket and [
 
 Alternatively, you can deploy using our template by clicking on the Deploy button below.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fraythurman2386%2Fnextjs-with-mongodb.git&env=MONGODB_URI)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fraythurman2386%2Fnextjs-with-mongodb.git&env=MONGODB_URI,MONGODB_DB)

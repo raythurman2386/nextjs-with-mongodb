@@ -16,6 +16,6 @@ export async function GET(req: NextRequest) {
             .toArray();
         return NextResponse.json(movies);
     } catch (e) {
-        console.log(e);
+        return NextResponse.json(e);
     }
 }
