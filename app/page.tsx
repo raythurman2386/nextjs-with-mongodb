@@ -30,7 +30,7 @@ export default async function Home() {
 
                 <p className="text-xl text-center mb-8">
                     Get started by editing{" "}
-                    <code className="bg-gray-100 rounded-md px-2 py-1">
+                    <code className="light:bg-gray-100 dark:bg-gray-800 dark:text-white rounded-md px-2 py-1">
                         app/page.tsx
                     </code>
                 </p>
