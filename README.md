@@ -20,34 +20,6 @@ Once you have access to the environment variables you'll need, deploy the exampl
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fraythurman2386%2Fnextjs-with-mongodb.git&env=MONGODB_URI)
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-mongodb mflix
-```
-
-```bash
-yarn create next-app --example with-mongodb mflix
-```
-
-```bash
-pnpm create next-app --example with-mongodb mflix
-```
-
-After that navigate to the project directory by running
-
-```
-cd mflix
-```
-
-And then install all the npm dependencies by running:
-
-```
-npm install
-```
-
 ## Configuration
 
 ### Set up a MongoDB database
