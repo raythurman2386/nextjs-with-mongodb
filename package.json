@@ -8,11 +8,16 @@
         "format": "prettier \"**/*.{css,js,json,jsx,ts,tsx}\""
     },
     "dependencies": {
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.1.1",
+        "lucide-react": "^0.396.0",
         "mongodb": "^4.17.2",
         "next": "latest",
         "next-themes": "^0.3.0",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "tailwind-merge": "^2.3.0",
+        "tailwindcss-animate": "^1.0.7"
     },
     "devDependencies": {
         "@types/node": "18.7.5",
